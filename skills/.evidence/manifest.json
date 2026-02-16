@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "exoplanet-getting-started",
+    "exoplanet-build-and-install",
+    "exoplanet-api-and-scripting",
+    "exoplanet-user",
+    "exoplanet-inputs-and-modeling",
+    "exoplanet-general"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/exoplanet-getting-started.md",
+    "skills/.evidence/exoplanet-build-and-install.md",
+    "skills/.evidence/exoplanet-api-and-scripting.md",
+    "skills/.evidence/exoplanet-user.md",
+    "skills/.evidence/exoplanet-inputs-and-modeling.md",
+    "skills/.evidence/exoplanet-general.md"
+  ]
+}

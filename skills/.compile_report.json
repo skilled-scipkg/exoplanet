@@ -1,0 +1,114 @@
+{
+  "compiled_package_id": "exoplanet",
+  "evidence": {
+    "core_skills": [
+      "exoplanet-getting-started",
+      "exoplanet-build-and-install",
+      "exoplanet-api-and-scripting",
+      "exoplanet-user",
+      "exoplanet-inputs-and-modeling",
+      "exoplanet-general"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/exoplanet-getting-started.md",
+      "skills/.evidence/exoplanet-build-and-install.md",
+      "skills/.evidence/exoplanet-api-and-scripting.md",
+      "skills/.evidence/exoplanet-user.md",
+      "skills/.evidence/exoplanet-inputs-and-modeling.md",
+      "skills/.evidence/exoplanet-general.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Dry-run generator discovery confirms docs/tutorials/tests/source roots above.",
+      "Excluded `binder` because it contains environment config, not tutorial/example content.",
+      "Excluded `joss` from docs roots because it is publication metadata, not primary user/developer docs."
+    ],
+    "package_name": "exoplanet",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src"
+    ],
+    "test_dirs": [
+      "tests"
+    ],
+    "tutorial_dirs": [
+      "docs/tutorials"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet",
+  "validation": {
+    "core_skills_checked": [
+      "exoplanet-advanced-topics",
+      "exoplanet-api-and-scripting",
+      "exoplanet-getting-started",
+      "exoplanet-build-and-install"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-advanced-topics/references/source_map.md: broken path references: tests/orbits/ttv_test.py::test_compute_expected_transit_times, tests/orbits/ttv_test.py::test_consistency, tests/orbits/simple_test.py::test_simple, tests/orbits/simple_test.py::test_simple_light_curve_compare_kepler, tests/orbits/keplerian_test.py::test_radial_velocity",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-api-and-scripting/references/source_map.md: broken path references: tests/orbits/keplerian_test.py::test_light_delay, tests/orbits/keplerian_test.py::test_radial_velocity, tests/light_curves_test.py::test_in_transit, tests/light_curves_test.py::test_variable_texp, tests/light_curves_test.py::test_secondary_eclipse",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-build-and-install/references/source_map.md: broken path references: tests/citations_test.py::test_basic",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-getting-started/references/source_map.md: broken path references: tests/orbits/keplerian_test.py::test_radial_velocity, tests/orbits/keplerian_test.py::test_in_transit, tests/orbits/keplerian_test.py::test_get_consistent_inputs, tests/distributions_test.py::TestUnitDisk, tests/distributions_test.py::TestAngle",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-advanced-topics/SKILL.md: playbook missing required element containing 'triage questions'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-advanced-topics/SKILL.md: playbook missing required element containing 'canonical workflow'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-advanced-topics/SKILL.md: playbook missing required element containing 'minimal working example'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-advanced-topics/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-advanced-topics/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-api-and-scripting/SKILL.md: playbook missing required element containing 'triage questions'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-api-and-scripting/SKILL.md: playbook missing required element containing 'canonical workflow'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-api-and-scripting/SKILL.md: playbook missing required element containing 'minimal working example'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-api-and-scripting/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-api-and-scripting/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-getting-started/SKILL.md: playbook missing required element containing 'triage questions'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-getting-started/SKILL.md: playbook missing required element containing 'canonical workflow'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-getting-started/SKILL.md: playbook missing required element containing 'minimal working example'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-getting-started/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-build-and-install/SKILL.md: playbook missing required element containing 'triage questions'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-build-and-install/SKILL.md: playbook missing required element containing 'canonical workflow'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-build-and-install/SKILL.md: playbook missing required element containing 'minimal working example'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-build-and-install/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/exoplanet-exoplanet/skills/exoplanet-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "exoplanet-index"
+    ],
+    "ok": false,
+    "skills_total": 5,
+    "source_links_total": 35,
+    "topic_skills": 4,
+    "warnings": []
+  }
+}
